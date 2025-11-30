@@ -1,0 +1,20 @@
+{
+  "apiVersion": 2,
+  "name": "dmg/read-more-link",
+  "title": "DMG Read More Link",
+  "category": "widgets",
+  "icon": "admin-links",
+  "description": "Insert a stylized 'Read More' link to another post.",
+  "attributes": {
+    "postId": {
+      "type": "number"
+    },
+    "postTitle": {
+      "type": "string"
+    },
+    "postUrl": {
+      "type": "string"
+    }
+  },
+  "editorScript": "dmg-read-more-block"
+}
